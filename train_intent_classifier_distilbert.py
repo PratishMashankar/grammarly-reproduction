@@ -74,7 +74,7 @@ def main(args):
 
     config = config_type.from_pretrained(model_name)
     config.num_labels = 5
-    config.classifier_dropout = config.hidden_dropout_prob
+    config.classifier_dropout = config.dropout
 
     model = CustomModel(training_args, model_type, model_name, config=config, cache_dir=model_cache_dir, pos_weight=pos_weight)
     model.to(device)
@@ -190,8 +190,6 @@ class CustomModel(nn.Module):
         self,
         input_ids=None,
         attention_mask=None,
-        token_type_ids=None,
-        position_ids=None,
         head_mask=None,
         inputs_embeds=None,
         labels=None,
@@ -203,8 +201,6 @@ class CustomModel(nn.Module):
         outputs = self.distilbert(
             input_ids,
             attention_mask=attention_mask,
-            token_type_ids=token_type_ids,
-            position_ids=position_ids,
             head_mask=head_mask,
             inputs_embeds=inputs_embeds,
             output_attentions=output_attentions,
