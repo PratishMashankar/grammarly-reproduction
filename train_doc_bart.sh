@@ -30,6 +30,6 @@ ${PYTHON} ${TRAIN_SCRIPT} \
   --logging_steps 50 \
   --output_dir "${OUTPUT}" \
   --overwrite_output_dir \
-  --text_column before_sent \
-  --summary_column after_sent \
+  --text_column before_revision \
+  --summary_column after_revision \
   --learning_rate 3e-5
