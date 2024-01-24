@@ -5,7 +5,7 @@ This repository has been created in contribution to the final project titled Rep
 ## File Structure
 - **Report.pdf:** Final documentation of the project
 - **code/**
-  - **reproduction.ipynb:** Notebook detailing the reproduction and experimentation of [Understanding Iterative Revision from Human-Written Text] (https://aclanthology.org/2022.acl-long.250/)
+  - **reproduction.ipynb:** Notebook detailing the reproduction and experimentation of [Understanding Iterative Revision from Human-Written Text](https://aclanthology.org/2022.acl-long.250/)
   - **robustness-multilinguality.ipynb:** Code to perform robustness and multilinguality tests on above
 - **cp1files:** has all the files required for reproducing the paper  “Understanding Iterative Revision from Human-Written Text” by Wanyu D et al. with additional models for comparision
 - **edit_generation:** has shell scripts and python files for performing robustness and multilingual tests on the Pegasus and mT5 models for edit generation module
