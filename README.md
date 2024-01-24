@@ -2,6 +2,9 @@
 
 This repository has been created in contribution to the final project titled Reproducibility Study of “Understanding Iterative Revision from Human-Written Text”,  ACL Anthology  2022, for CS678 Advance Natural Language Processing under Professor Antonios Anastasopoulos and Professor Sina Ahmadi. 
 
+The [paper]((https://aclanthology.org/2022.acl-long.250/)) aims to address the task of developing a comprehensive framework for modeling and understanding the iterative text revision process, to improve the quality and efficiency of the writing process through the creation of large-scale, multi-domain, edit-intention annotated corpora. The research question that the paper seeks to answer is how to develop a framework that can comprehensively model the iterative text revision process, including various domains of formal writing, edit intentions, revision depths, and granularities, and how to use this framework to create annotated corpora that can support computational modeling of iterative text revisions. Additionally, the paper investigates the relationship between edit intentions and writing quality and explores how incorporating annotated edit intentions can improve automatic evaluations of generative and edit-based text revision models. On these models, we perform Robustness and Multilinguality tests and document our results.
+
+
 ## File Structure
 - **Report.pdf:** Final documentation of the project
 - **code/**
