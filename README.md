@@ -21,3 +21,6 @@ The [paper]((https://aclanthology.org/2022.acl-long.250/)) aims to address the t
 - Pratish Mashankar G#: G01354094
 - Sai Likhitha Allanki G#: G01336091
 - William J David G#: G01129185
+
+## Declaration
+Project submitted towards the partial procurement of credits for CS678 Advance Natural Language Processing at GMU under Professor Antonios Anastasopoulos and Professor Sina Ahmadi. 
